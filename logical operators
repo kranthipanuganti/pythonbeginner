@@ -1,0 +1,15 @@
+age=int(input("enter age"))
+if(age<6):
+    print("too early to go to school")
+elif(age>=6 and age<=17):
+    grades = age-5
+    print("go to grades")
+elif(age>17):
+    print("got to college")
+
+
+age=int(input("enter age"))
+if(age>=18):
+    print("eligible for vote")
+elif(age<18):
+    print("not eligible")
