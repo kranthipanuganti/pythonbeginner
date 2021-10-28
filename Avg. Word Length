@@ -1,0 +1,18 @@
+Import OS
+with open("mydata2.txt" , encoding = "utf_8")
+  as my_life:
+    line_num = 1
+    while true:
+      line = my_file.readline()
+      if not line:
+        break
+      print("line",line_num)
+      word_list = line.split()
+      print("No.of words:",len(word_list))
+      char_count = 0
+      for word in word_list:
+        for char in words:
+          char_count += 1
+      avg_num_chars = char_count/len(word_list)
+      print("Avg word length: {:.2f}".format(avg_num_char))
+      line_num +=1
