@@ -1,0 +1,26 @@
+import math
+def get area(shape):
+  shape=shape.lower()
+  if shape == "rectangle":
+    rectangle_area()
+  elif shape == "circle":
+    circle_area()
+  else:
+    prinit("please enter rectangle or circle:")
+    
+def rectangle_area()
+  length = float(input("enter the length:")
+  width = float(input("enter the width:")
+  area = length * width
+  print("area of rectangle is:" , area)
+
+def circle_area()
+  radius = float(input("enter the radius:")
+  area = math.pi * (math.pow(radius,2))
+  print("area of circle is:" , area)
+
+def main()
+  shape_type = input("get area for:")
+  get_area(shape_type)
+ 
+main()
