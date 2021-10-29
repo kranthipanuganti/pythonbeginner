@@ -1,4 +1,4 @@
 employee = []
 f_name,l_name+input("enter the name of the employee:").split()
-employee.append({"f_name:f_name" , "l_name:l_name"})
+employee.append({"f_name":f_name , "l_name":l_name})
 print(employee)
