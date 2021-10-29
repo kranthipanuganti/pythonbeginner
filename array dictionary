@@ -1,0 +1,11 @@
+customers = []
+while true:
+    create_entry = input("Enter the customer(Y/N):")
+    create_entry = create_entry[0].lower()
+    if create_entry = "n":
+        break
+    else:
+        f_name,l_name = input("Enter the name of the customer:").split()
+        customer.append({"f_name":f_name,"l_name":l_name})
+for cust in customers:
+    print(cust['f_name'] , cust['l_name'])
