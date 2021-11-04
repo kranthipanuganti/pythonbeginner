@@ -1,0 +1,6 @@
+def merge_sort(array, left_index, right_index):   
+       if left_index >= right_index:   
+                 return middle = (left_index + right_index)//2   
+       merge_sort(array, left_index, middle)   
+       merge_sort(array, middle + 1, right_index)   
+       merge(array, left_index, right_index, middle)   
